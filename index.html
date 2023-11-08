@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf^8">
+    <meta name="viepoint" content="with=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <title>プログラミング基礎コース 最終日</title>
+    <link rel="stylesheet" href="lastDay.css">
+  </head>
+
+  <header>
+    <nav id="menubar">
+    </nav>
+    <div>
+    <p class="reference">画像出典: https://template-party.com/</p>
+    <h1 class="title-class">プログラミング基礎コース 最終日</h1>
+    <h2 class="subtitle-class">
+      <li>本コースで学んだこと</li>
+      <div class="vscodeImg"></div>
+      <p class="kajo">プログラミングの基礎<p>
+      <p class="kajo">テスト駆動開発</p>
+      <p class="kajo">リファクタリング</p>
+      <p class="kajo">ペアプログラミング</p>
+      <p class="kajo">html/css/javascript(まさにこのページ、右側のvscode画面)</p>
+      <li>html/css/javascriptの実装</li>
+      <p class="kajo">プログラミングは"ものづくり"であり、"ことづくり"</p>
+      <p class="kajo">楽しんでもらえるゲームづくりにチャレンジしました</p>
+    </h2>
+    
+    </div>
+  </header>
+
+  <body>
+    <br><br><br><br><br><br><br>
+    <p>パチンコを作りたかったのですが、(今は)無理でした</p>
+    <p class=""></p>
+    <h1>
+      <p>作業ばらし：最低限の機能</p>
+    </h1>
+    <h2>
+      <ol>
+        <li class="yatteru">開始ボタンを押すと弾が飛び出す（押している時間で射出速度が決まる）
+        </li>
+        <li>外枠や障害物に当たり跳ね返るを繰り返す（前提：画面下側に傾斜）</li>
+        <li>画面下側もしくは画面上の穴に弾が一致すると消える</li>
+      </ol>
+    </h2>
+    <canvas id="field"></canvas>
+    <div class="start_button"><button id="start_button">開始</button></div>
+    <div class="click_time">clickした時間を表示</div>
+    <script src="lastDay.js"></script>
+
+    
+    <!-- <p><br><br>色々なサイトを参考にしてます、MDNに下のようなのが上がっており、コード理解に必死です。</p>
+    <canvas id="canvas" style="border: 1px solid" width="600" height="300"></canvas>
+    <script src="lastDay.js"></script> -->
+
+    
+  </body>
+
+</html>
